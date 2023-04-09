@@ -2,7 +2,7 @@ sudo: required
 language: python
 env:
   global:
-  - secure: "I/KZwsU13eCHWLWHKrunp7JzpK+dWlPE+3t6N+E2w4lYJnjmy/ZsYnzH0/GmIOgLcmIWYeVKTmvoTpkhgw/R1DFktMmRtjV15uR8I89v/RLaPEOG7Wj+t4+ZyNyRyl2B6WqJsi4hkonPJwF18a6HxxaK5hdwtltFOXotVgcddjmrjQGpjjUArB6u+uWHIGLIfJ9k08Ty1cnCe+1IvN+9eYbENg/a0Eh7CgZVP1nbyjVNqZtXWrETeT9Q0+Fiby4EIn2/5aQ6kO/HerbZC7X5VawOnVR/rFSNeds3Y0P2HOdmJipkQaE5omVnAFj1c9LdKrrHWHf6j9tsrGwwLRnyxe5EDXt5wP0mB2o6aoiBa6q94bz9Ttb0xHjyIsYP2hIzYJCfMl+Oufi74TjwrE5Q0QGNgUX6JRN6FgwYFAYHayRWvPaMIOe3ElXPhAe+c1mVfhH9YQirQrOAIGGY5xEReVKhxGRsuM3O5yYQ41+ATAnhAb00qwCxW+hWKAj8qshLS62qvJQV1/4jm/w6UvavWKJ6XfEGOQ2l19S36ToNmVbtG0bzYr/jszpCfMuuJ35IWB3d+PSvZ5g0cYalFpuXhvPOZhZBjxS6bqqjOYDUkR+XI3ucpizKo3ENBND0P+ZhSV6rjRph2emfOZZ0LDI5G9yG6IB5hZUjG3/YfmhgTtY="
+  - secure: #"I/KZwsU13eCHWLWHKrunp7JzpK+dWlPE+3t6N+E2w4lYJnjmy/ZsYnzH0/GmIOgLcmIWYeVKTmvoTpkhgw/R1DFktMmRtjV15uR8I89v/RLaPEOG7Wj+t4+ZyNyRyl2B6WqJsi4hkonPJwF18a6HxxaK5hdwtltFOXotVgcddjmrjQGpjjUArB6u+uWHIGLIfJ9k08Ty1cnCe+1IvN+9eYbENg/a0Eh7CgZVP1nbyjVNqZtXWrETeT9Q0+Fiby4EIn2/5aQ6kO/HerbZC7X5VawOnVR/rFSNeds3Y0P2HOdmJipkQaE5omVnAFj1c9LdKrrHWHf6j9tsrGwwLRnyxe5EDXt5wP0mB2o6aoiBa6q94bz9Ttb0xHjyIsYP2hIzYJCfMl+Oufi74TjwrE5Q0QGNgUX6JRN6FgwYFAYHayRWvPaMIOe3ElXPhAe+c1mVfhH9YQirQrOAIGGY5xEReVKhxGRsuM3O5yYQ41+ATAnhAb00qwCxW+hWKAj8qshLS62qvJQV1/4jm/w6UvavWKJ6XfEGOQ2l19S36ToNmVbtG0bzYr/jszpCfMuuJ35IWB3d+PSvZ5g0cYalFpuXhvPOZhZBjxS6bqqjOYDUkR+XI3ucpizKo3ENBND0P+ZhSV6rjRph2emfOZZ0LDI5G9yG6IB5hZUjG3/YfmhgTtY="
 git:
   depth: false
 branches:
@@ -14,7 +14,7 @@ addons:
     - pandoc
 pandoc_version: 2.3.1
 before_install:
-  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com #--recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
   - sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran40/'
   - sudo apt-get update
   - sudo apt-get -y install r-base r-base-dev
