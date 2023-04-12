@@ -12,7 +12,7 @@ description: |
         <li>how to estimate causal effects with machine learning methods in R</li>
     <ul>
 
-    The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
+The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
 baseurl: "/ML4CI" # the github directory
 url: "https://ainaimi.github.io/" # the base hostname & protocol for your site
 
