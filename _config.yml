@@ -5,11 +5,12 @@ description: |
     This course is focused onthe basics behind using machine learning methods for estimating cause-effect relations.
 
     By the end of this course you should have a solid understanding of:
-
-        - the challenges of estimating causal effects with data
-        - when/why one should use machine learning to estimate causal effects
-        - the challenges of using machine learning methods for estimating causal effects
-        - how to estimate causal effects with machine learning methods in R
+    <ul>
+        <li>the challenges of estimating causal effects with data</li>
+        <li>when/why one should use machine learning to estimate causal effects</li>
+        <li>the challenges of using machine learning methods for estimating causal effects</li>
+        <li>how to estimate causal effects with machine learning methods in R</li>
+    <ul>
 
     The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
 baseurl: "/ML4CI" # the github directory
