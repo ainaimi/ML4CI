@@ -2,9 +2,16 @@
 title: ML4CI
 subtitle: Machine Learning for Causal Inference
 description: |
-    This course is ... . 
-    Together, these tools can be used to ... . By the end of the course students will have learned ... . 
-    ... . 
+    This course is focused onthe basics behind using machine learning methods for estimating cause-effect relations.
+
+    By the end of this course you should have a solid understanding of:
+
+        - the challenges of estimating causal effects with data
+        - when/why one should use machine learning to estimate causal effects
+        - the challenges of using machine learning methods for estimating causal effects
+        - how to estimate causal effects with machine learning methods in R
+
+    The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
 baseurl: "/ML4CI" # the github directory
 url: "https://ainaimi.github.io/" # the base hostname & protocol for your site
 
@@ -18,11 +25,11 @@ email: ashley.naimi@emory.edu
 twitter_username: ashley_naimi
 github_username:  ainaimi
 authorurl: "https://bit.ly/3GFu2o1"
-address: |
-    Emory University
-    Department of Biostatistics and Bioinformatics
-    1518 Clifton Rd. NE
-    Atlanta, GA 30322
+# address: |
+#     Emory University
+#     Department of Biostatistics and Bioinformatics
+#     1518 Clifton Rd. NE
+#     Atlanta, GA 30322
 
 # Use collection to manage records
 collections: 
