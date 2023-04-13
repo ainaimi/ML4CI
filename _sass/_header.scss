@@ -82,23 +82,23 @@
 	letter-spacing: 0;
 	line-height: 1.2em;
 	padding: 4px 10px;
-color: #012169;
+color: #012169; /* what is this coloring? */
 
 }
 
 .site-nav .sub-menu a:hover {
-	color: $clemson-purple;
+	color: $grey-color-dark;
 }
 .site-nav  .sub-menu {
 	background: #ffffff;
-	border-color: $clemson-purple;
+	border-color: $grey-color-dark;
 	min-width: 265px;
 
 	z-index:2147483647;
 }
 .site-nav .sub-menu li.current-menu-item > a {
-	border-left-color: $clemson-purple;
-	border-right-color: $clemson-purple;
+	border-left-color: $grey-color-dark;
+	border-right-color: $grey-color-dark;
 	border-right: 0px;
 
 }
@@ -157,7 +157,7 @@ z-index:999;
 
     .page-link {
         color: #ffffff;
-    background: $clemson-purple;
+    background: $grey-color-dark;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
