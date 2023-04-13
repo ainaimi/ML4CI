@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "ipa"
   spec.version       = "0.1.0"
   spec.authors       = [""]
-  spec.email         = ["benkeser@emory.edu"]
+  spec.email         = ["ashley.naimi@emory.edu"]
 
   spec.summary       = "Write a short summary, because Rubygems requires one."
   spec.homepage      = "http://anaddress.com"
