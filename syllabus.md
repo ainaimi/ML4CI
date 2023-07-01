@@ -15,7 +15,7 @@ output:
 
 __DEPARTMENT:__ Epidemiology
 
-__COURSE NUMBER:__ ML4CI                                          
+__COURSE NUMBER:__ TBD                                          
 
 __COURSE TITLE__: Machine Learning for Causal Inference
 
@@ -40,17 +40,19 @@ __TEACHING ASSISTANT INFORMATION__:
 
 ## COURSE DESCRIPTION
 
-This course is focused on the basics behind using machine learning methods for estimating cause-effect relations.
+This doctoral level course is focused on the use of machine learning methods for estimating cause-effect relations in observational and randomized trial data. This topic differs from more traditional introductory or intermediate level machine learning courses, which are often focused specifically on predictive analytics. In this course, we will cover why inference (statistical and causal) is a challenge when machine learning methods are used to estimate causal effects and obtain valid inference statistics. 
 
 By the end of this course you should have a solid understanding of:
 
--  The challenges of estimating causal effects with data
--  When/why one should use machine learning to estimate causal effects
--  The challenges of using machine learning methods for estimating causal effects
--  How to estimate causal effects with machine learning methods in R
+-  The challenges of estimating causal effects with data.
+-  When/why one should use machine learning to estimate causal effects.
+-  The curse of dimensionality and how double robust methods can be used to "lift" the curse.
+-  Different types of double robust estimators (targeted minimum loss based estimation, augmented inverse probability weighted estimators, double debiased machine learning estimator).
+-  How to estimate causal effects with machine learning methods using R
 
 The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
 
+This course **is an applied course.** Some theoretical concepts will be introduced, but in a very accessible, intuitive format. 
 
 ## PRE-REQUISITES
 
@@ -60,7 +62,7 @@ Necessary skills and concept include: reading data into R, basic data cleaning i
 
 ## COURSE LEARNING OBJECTIVES
 
-* Understand the basic causal roadmap of picking a suitable estimand and estimator.
+* Understand the basic causal roadmap of picking a suitable estimand and estimator for a given research question.
 * Understand the curse of dimensionality and bias-variance tradeoffs.
 * Understand why a double-robust estimator mitigates problems introduced by the curse of dimensionality.
 * Understand the difference between TMLE and AIPW.
@@ -74,35 +76,13 @@ In person attendance in this short course is expected.
 
 ## EVALUATION
 
-Students will self-evaluate .
+### Assignments
 
-### Weekly assignments
-
-The weekly assignments will consist of two types of exercise.
-
-1. Pre-read exercises: these are short, low stakes assignments designed to test very basic understanding of the preparation material each week. These assignments will generally be due before class begins each week. __I suggest reading through the pre-read exercises prior to going through the prepartion material__.
-2. In class exercises: these will generally be group assignments that happen in-class and should be turned in during class time. These will usually be graded for completion, rather than correctness.
-
-### Grade composition
-
-Your grade will be determined as follows:
-
-* 50% final project
-* 25% pre-read assignments
-* 25% in-class assignments
+There will be one final project to be completed at home. There will also be three short in class exercises over the course of the term. 
 
 ### Grade scale
 
-* A = 95 -- 100%
-* A- = 90 -- 95%
-* B+ = 87 – 90%
-* B = 83 – 87%
-* B- = 80 – 83%
-* C = 65 – 80%
-* F = <65%
-
-Final grades are not rounded and the lower limit of each letter grade is
-inclusive, so e.g., 93.0 is an A, while 92.9 is an A-.
+This course will be graded as Satisfactory(S)/Unsatisfactory(U) for all students.
  
 ## COURSE STRUCTURE
 
@@ -112,7 +92,7 @@ This short course will consist of a combination of in class lectures, in class e
 "tidyverse", "here", "sandwich", "lmtest", "boot", "ranger", "ggplot2", "broom", "SuperLearner", "tmle", "AIPW", "ranger", "xgboost", "e1071", "nnet", "glmnet", "remotes"
 ```
  
- You will also have to install the `tlverse` library, which is available only on GitHub. The best way to do this is to use the `install_github()` function in the `remotes` package. However, you will have to address the potential GitHub API limits, which can lead to installation errors. To deal with this problem, you will need your own GitHub account. 
+You will also have to install the `tlverse` library, which is available only on GitHub. The best way to do this is to use the `install_github()` function in the `remotes` package. However, you will have to address the potential GitHub API limits, which can lead to installation errors. To deal with this problem, you will need your own GitHub account. 
 
 The easiest way to address this issue is to use a Github personal access token (PAT). There are a number of ways to do this, and it's important to [read the basic information on PATs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Within R and RStudio, one straightforward way to manage PATs is to install and use the `usethis` package, which has a suite of functions available for creating and integrating PATs. Once you've installed `usethis`, you can:
 
@@ -143,6 +123,9 @@ You are bound by Emory University’s Student Honor and Conduct Code. RSPH requi
 
 The [RSPH Honor Code](http://www.sph.emory.edu/cms/current_students/enrollment_services/honor_code.html) states: "*Plagiarism is the act of presenting as one's own work the expression, words, or ideas of another person whether published or unpublished (including the work of another student). A writer’s work should be regarded as his/her own property.*" 
 
+## Laney Academic Integrity Statement 
+
+You are expected to uphold and cooperate in maintaining academic integrity as a member of the Laney Graduate School. By taking this course, you affirm your commitment to the Laney Graduate School Honor Code, which you can find in the Laney Graduate School Handbook. You should ensure that you are familiar with the rights and responsibilities of members of our academic community and with policies that apply to students as members of our academic community. Any individual, when they suspect that an offense of academic misconduct has occurred, shall report this suspected breach to the appropriate Director of Graduate Studies, Program Director, or Dean of the Laney Graduate School. If an allegation is reported to a Director of Graduate Studies or a Program Director, they are in turn required to report the allegation to the Dean of Laney Graduate School. 
 
 ## COURSE CALENDAR AND OUTLINE
 
