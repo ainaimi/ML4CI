@@ -52,7 +52,7 @@ By the end of this course you should have a solid understanding of:
 
 The literature on ML and causal inference is very expansive and complex. There are some key essential concepts that are not easy to understand for those with little to no formal technical background. The purpose of this course is to help you with your efforts in filling this gap.
 
-This course **is an applied course.** Some theoretical concepts will be introduced, but in a very accessible, intuitive format. 
+This **is an applied course.** We will focus extensively on R code, what it is doing, and how it is related to some of the theoretical considerations we will cover. Some theoretical concepts will be introduced, but in a very accessible, intuitive format. 
 
 ## PRE-REQUISITES
 
@@ -129,8 +129,8 @@ You are expected to uphold and cooperate in maintaining academic integrity as a 
 
 ## COURSE CALENDAR AND OUTLINE
 
-| Monday  (6hrs)  | Review of Causal Inference: Estimands in Time-Fixed and Longidutinal Settings; Identifiability: Identification Bias, Assumptions for Causal Identification; Estimation: Estimation Bias, Parametric versus Nonparametric Regression; Regression for Time-Fixed and Time-Varying Exposures: Loss functions, Bias-Variance Tradeoff, Curse of Dimensionality|
-| Tuesday (6hrs) |   |
-| Wednesday (6hrs) |   |
-| Thursday (6hrs)  |   |
-| Friday  (5hrs)  |   |
+| Monday  (6hrs)  | Estimands in Time-Fixed and Longidutinal Settings; Identification Bias versus Estimation Bias, Regression for Effect Estimation: Outcome Modeling and Propensity Scores, Loss Functions, Bias-Variance Tradeoff, Curse of Dimensionality;  |
+| Tuesday (6hrs) | Some History: Slow Convergence and Complexity Issues; Introduction to Double-Robustsness: Intuition and a Worked Example; Introduction to Cross-Fitting (Sample Splitting); Augmented Inverse Probability Weighting; Targeted Minimum Loss-Based Estimation; Double Debiased Machine Learning; Heterogeneous Treatment Effects: T-Learner, S-Learner, X-Learner, R-Learner, DR-Learner, Causal Forests |
+| Wednesday (6hrs) | Fitting the Outcome Model and Propensity Score; The Super Learner: Intuition and a Worked Example; The Cross-Validated Super Learner; `SuperLearner` versus `sl3` |
+| Thursday (6hrs)  |  Estimating the ATE, ETT, ETU with TMLE and AIPW: Worked Examples; Estimating CATEs with the DR-Learner: Worked Examples |
+| Friday  (5hrs)  | Longitudinal Data and LTMLE: Worked Examples; Where should you go from here? Current and future research questions |
