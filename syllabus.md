@@ -30,7 +30,7 @@ __INSTRUCTOR NAME:__ Ashley I. Naimi
 __INSTRUCTOR CONTACT INFORMATION__
 * __EMAIL__: ashley.naimi@emory.edu 
 * __SCHOOL ADDRESS OR MAILBOX LOCATION__: CNR 4013
-* __OFFICE HOURS__: TBD
+* __OFFICE HOURS__: By Appointment
 
 __TEACHING ASSISTANT INFORMATION__: 
 * __NAME__: TBD
@@ -129,4 +129,8 @@ You are expected to uphold and cooperate in maintaining academic integrity as a 
 
 ## COURSE CALENDAR AND OUTLINE
 
-TBD
+| Monday  (6hrs)  | Review of Causal Inference: Estimands in Time-Fixed and Longidutinal Settings; Identifiability: Identification Bias, Assumptions for Causal Identification; Estimation: Estimation Bias, Parametric versus Nonparametric Regression; Regression for Time-Fixed and Time-Varying Exposures: Loss functions, Bias-Variance Tradeoff, Curse of Dimensionality|
+| Tuesday (6hrs) |   |
+| Wednesday (6hrs) |   |
+| Thursday (6hrs)  |   |
+| Friday  (5hrs)  |   |
