@@ -5,7 +5,6 @@ description: |
     <p>This course covers the basics behind using machine learning methods for estimating causal effects.</p>
 
     <p>By the end of this course you should have a solid understanding of:</p>
-
     <ul>
         <li>the challenges of estimating causal effects with data</li>
         <li>when/why one should use machine learning to estimate causal effects</li>
