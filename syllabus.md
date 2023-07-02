@@ -131,8 +131,12 @@ You are expected to uphold and cooperate in maintaining academic integrity as a 
 
 ## COURSE CALENDAR AND OUTLINE
 
-| Monday  (6hrs)  | Estimands in Time-Fixed and Longidutinal Settings; Identification Bias versus Estimation Bias, Regression for Effect Estimation: Outcome Modeling and Propensity Scores, Loss Functions, Bias-Variance Tradeoff, Curse of Dimensionality;  |
-| Tuesday (6hrs) | Some History: Slow Convergence and Complexity Issues; Introduction to Double-Robustsness: Intuition and a Worked Example; Introduction to Cross-Fitting (Sample Splitting); Augmented Inverse Probability Weighting; Targeted Minimum Loss-Based Estimation; Double Debiased Machine Learning; Heterogeneous Treatment Effects: T-Learner, S-Learner, X-Learner, R-Learner, DR-Learner, Causal Forests |
-| Wednesday (6hrs) | Fitting the Outcome Model and Propensity Score; The Super Learner: Intuition and a Worked Example; Choosing Level-0 Algorithms; Tuning Level-0 Algorithms in the Super Learner; Screening Algorithms; Design Matrices in the Super Learner; The Cross-Validated Super Learner; `SuperLearner` versus `CV.SuperLearner` versus `sl3` |
-| Thursday (6hrs)  |  Putting it all together: Estimating the ATE, ETT, ETU with TMLE and AIPW, Worked Examples; Estimating CATEs with the DR-Learner (versus Causal Forests), Worked Examples |
-| Friday  (5hrs)  | Longitudinal Data and LTMLE: Worked Examples; Where should you go from here? Current and future research questions |
+| Monday  (6hrs)  | Estimands in Time-Fixed and Longidutinal Settings; Identification Bias versus Estimation Bias, Regression for Effect Estimation: Outcome Modeling and Propensity Scores, Loss Functions, Bias-Variance Tradeoff, Curse of Dimensionality. |
+
+| Tuesday (6hrs) | Machine Learning: Slow Convergence and Complexity Issues; Introduction to Double-Robustsness: Intuition and a Worked Example; Introduction to Cross-Fitting (Sample Splitting); Augmented Inverse Probability Weighting; Targeted Minimum Loss-Based Estimation; Double Debiased Machine Learning; Longitudinal TMLE. |
+
+| Wednesday (6hrs) | Heterogeneous Treatment Effects: T-Learner, S-Learner, X-Learner, R-Learner, DR-Learner, Causal Forests; Fitting the Outcome Model and Propensity Score; The Super Learner: Intuition and a Worked Example; Choosing Level-0 Algorithms; Tuning Level-0 Algorithms in the Super Learner; Screening Algorithms; Design Matrices in the Super Learner; |
+
+| Thursday (6hrs)  |  The Cross-Validated Super Learner; `SuperLearner` versus `CV.SuperLearner` versus `sl3`; Estimating the ATE, ETT, ETU with TMLE and AIPW, Worked Examples; Estimating CATEs with the DR-Learner (versus Causal Forests), Worked Examples |
+
+| Friday  (5hrs)  | AIPW, TMLE, DML, and DR Learner: Worked Examples and Wrapping Up |
