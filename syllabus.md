@@ -139,4 +139,4 @@ You are expected to uphold and cooperate in maintaining academic integrity as a 
 
 | Thursday (6hrs)  |  The Cross-Validated Super Learner; `SuperLearner` versus `CV.SuperLearner` versus `sl3`; Estimating the ATE, ETT, ETU with TMLE and AIPW, Worked Examples; Estimating CATEs with the DR-Learner (versus Causal Forests), Worked Examples |
 
-| Friday  (5hrs)  | AIPW, TMLE, DML, and DR Learner: Worked Examples and Wrapping Up |
+| Friday  (5hrs)  | AIPW, TMLE, and DR Learner: Worked Examples and Wrapping Up |
