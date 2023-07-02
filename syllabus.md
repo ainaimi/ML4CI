@@ -54,6 +54,8 @@ The literature on ML and causal inference is very expansive and complex. There a
 
 This **is an applied course.** We will focus extensively on R code, what it is doing, and how it is related to some of the theoretical considerations we will cover. Some theoretical concepts will be introduced, but in a very accessible, intuitive format. 
 
+This is a 2 credit hour course. Each credit hour amounts to 14 contact  which equates to 28 hours of class-room learning and 
+
 ## PRE-REQUISITES
 
 This course will build on basic and intermediate analytic methods and causal inference concepts covered in [EPI 545](https://sph.emory.edu/academics/courses/epi-courses/index.html), [EPI 560](https://sph.emory.edu/academics/courses/epi-courses/index.html) and [EPI 760](https://sph.emory.edu/academics/courses/epi-courses/index.html). 
@@ -131,6 +133,6 @@ You are expected to uphold and cooperate in maintaining academic integrity as a 
 
 | Monday  (6hrs)  | Estimands in Time-Fixed and Longidutinal Settings; Identification Bias versus Estimation Bias, Regression for Effect Estimation: Outcome Modeling and Propensity Scores, Loss Functions, Bias-Variance Tradeoff, Curse of Dimensionality;  |
 | Tuesday (6hrs) | Some History: Slow Convergence and Complexity Issues; Introduction to Double-Robustsness: Intuition and a Worked Example; Introduction to Cross-Fitting (Sample Splitting); Augmented Inverse Probability Weighting; Targeted Minimum Loss-Based Estimation; Double Debiased Machine Learning; Heterogeneous Treatment Effects: T-Learner, S-Learner, X-Learner, R-Learner, DR-Learner, Causal Forests |
-| Wednesday (6hrs) | Fitting the Outcome Model and Propensity Score; The Super Learner: Intuition and a Worked Example; The Cross-Validated Super Learner; `SuperLearner` versus `sl3` |
-| Thursday (6hrs)  |  Estimating the ATE, ETT, ETU with TMLE and AIPW: Worked Examples; Estimating CATEs with the DR-Learner: Worked Examples |
+| Wednesday (6hrs) | Fitting the Outcome Model and Propensity Score; The Super Learner: Intuition and a Worked Example; Choosing Level-0 Algorithms; Tuning Level-0 Algorithms in the Super Learner; Screening Algorithms; Design Matrices in the Super Learner; The Cross-Validated Super Learner; `SuperLearner` versus `CV.SuperLearner` versus `sl3` |
+| Thursday (6hrs)  |  Putting it all together: Estimating the ATE, ETT, ETU with TMLE and AIPW, Worked Examples; Estimating CATEs with the DR-Learner (versus Causal Forests), Worked Examples |
 | Friday  (5hrs)  | Longitudinal Data and LTMLE: Worked Examples; Where should you go from here? Current and future research questions |
